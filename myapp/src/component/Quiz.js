@@ -86,7 +86,7 @@ class Quiz extends React.Component {
       return (
         
         <div className="result">          
-          <h3>your Final score is: {this.state.score} points </h3>
+          <h3>your Final score is: {(this.state.min)} %  </h3>
         </div>
       );
     } 
